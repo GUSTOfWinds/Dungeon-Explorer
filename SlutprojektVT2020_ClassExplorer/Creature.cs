@@ -8,9 +8,9 @@ namespace SlutprojektVT2020_ClassExplorer
     {
         public static Random randomgenerator = new Random();
 
-        int strength;
-        int dexterity;
-        int constitution;
-        int intelligence;
+        public int strength;
+        public int dexterity;
+        public int constitution;
+        public int intelligence;
     }
 }
