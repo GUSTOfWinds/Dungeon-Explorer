@@ -11,7 +11,7 @@ namespace SlutprojektVT2020_ClassExplorer
             strength = 0;
             dexterity = 0;
             constitution = 0;
-            intelligence = 5;
+            intelligence = 0;
         }
     }
 }

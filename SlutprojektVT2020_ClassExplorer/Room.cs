@@ -7,7 +7,5 @@ namespace SlutprojektVT2020_ClassExplorer
     class Room
     {
         public static Random randomgenerator = new Random();
-
-
     }
 }

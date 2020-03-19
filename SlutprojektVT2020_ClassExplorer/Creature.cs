@@ -13,5 +13,10 @@ namespace SlutprojektVT2020_ClassExplorer
         public int dexterity;
         public int constitution;
         public int intelligence;
+
+        //METHOD: STRENGTH CHECK
+        //METHOD: DEXTERITY CHECK
+        //METHOD: CONSTITUTION CHECK
+        //METHOD: INTELLIGENCE CHECK
     }
 }
