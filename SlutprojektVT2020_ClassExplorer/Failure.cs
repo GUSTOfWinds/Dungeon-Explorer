@@ -8,11 +8,10 @@ namespace SlutprojektVT2020_ClassExplorer
     {
         public Failure()
         {
-            strength = 5;
-            dexterity = 5;
-            constitution = 5;
+            strength = 0;
+            dexterity = 0;
+            constitution = 0;
             intelligence = 5;
         }
     }
 }
-

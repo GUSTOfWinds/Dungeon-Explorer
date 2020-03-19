@@ -8,9 +8,9 @@ namespace SlutprojektVT2020_ClassExplorer
         {
             Random randomgenerator = new Random();
 
+            //Character Creator that generates both a statblock for the hero, as well as a name. Both of these are chosen by the user.
             Console.WriteLine("Greetings, Hero. You are about to enter the dungeon. Before you enter, please select a name and class");
-            Console.ReadLine();
-            Console.WriteLine("Please write in your name, and then hit enter to confirm");
+            Console.WriteLine("To begin with, please write in your name, and then hit enter to confirm");
             string HeroName = Console.ReadLine();
             Console.WriteLine("Now, " + HeroName + ", please select your class by writing the respective number (1, 2, 3 etc.) and hit enter to confirm");
             Console.WriteLine("The avaliable classes are as follows:");
@@ -21,14 +21,7 @@ namespace SlutprojektVT2020_ClassExplorer
             {
                 Console.WriteLine(HeroName + " is a Warrior!");
             }
-            if (HeroClass == "2")
-            {
-
-            }
-            if (HeroClass == "3")
-            {
-
-            }
+            //MORE CLASSES
             else
             {
                 Console.WriteLine(HeroName + " is a Failure...");
@@ -36,7 +29,6 @@ namespace SlutprojektVT2020_ClassExplorer
             Console.ReadLine();
             Console.WriteLine("Now, into the dungeon you go. Good luck!");
             Console.ReadLine();
-
 
             //ACTUAL DUNGEON GAME
         }

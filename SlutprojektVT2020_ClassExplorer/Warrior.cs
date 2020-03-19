@@ -8,11 +8,10 @@ namespace SlutprojektVT2020_ClassExplorer
     {
         public Warrior()
         {
-            strength = 20;
-            dexterity = 10;
-            constitution = 15;
-            intelligence = 5;
+            strength = 75;
+            dexterity = 25;
+            constitution = 50;
+            intelligence = 0;
         }
     }
 }
- 
