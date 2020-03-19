@@ -4,15 +4,15 @@ using System.Text;
 
 namespace SlutprojektVT2020_ClassExplorer
 {
-    class Warrior : Hero
+    class Failure : Hero
     {
-        public Warrior()
+        public Failure()
         {
-            strength = 20;
-            dexterity = 10;
-            constitution = 15;
+            strength = 5;
+            dexterity = 5;
+            constitution = 5;
             intelligence = 5;
         }
     }
 }
- 
+
