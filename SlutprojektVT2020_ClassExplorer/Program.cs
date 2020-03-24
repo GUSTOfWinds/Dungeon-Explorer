@@ -20,14 +20,35 @@ namespace SlutprojektVT2020_ClassExplorer
             if (HeroClass == "1")
             {
                 Console.WriteLine(HeroName + " is a Warrior!");
+                Warrior Hero = new Warrior();
             }
             //MORE CLASSES
             else
             {
                 Console.WriteLine(HeroName + " is a Failure...");
+                Failure Hero = new Failure();
             }
             Console.ReadLine();
             Console.WriteLine("Now, into the dungeon you go. Good luck!");
+            Console.ReadLine();
+
+
+            //TESTING AREA
+            Console.WriteLine("A Goblin Appears!");
+            Goblin TestEnemy = new Goblin();
+            Console.ReadLine();
+            Console.WriteLine("The Goblin & The Hero Fight!");
+
+            bool HeroWin = Hero.ContestStrength(TestEnemy.strength);
+            if (HeroWin == true)
+            {
+                Console.WriteLine("Hero Wins!")
+            }
+            else
+            {
+                Console.WriteLine("Hero Lose!")
+            }
+            Console.WriteLine("TestEnd");
             Console.ReadLine();
 
             //ACTUAL DUNGEON GAME
