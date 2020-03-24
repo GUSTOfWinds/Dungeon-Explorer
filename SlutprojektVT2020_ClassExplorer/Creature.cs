@@ -14,9 +14,60 @@ namespace SlutprojektVT2020_ClassExplorer
         public int constitution;
         public int intelligence;
 
-        //METHOD: STRENGTH CHECK
-        //METHOD: DEXTERITY CHECK
-        //METHOD: CONSTITUTION CHECK
-        //METHOD: INTELLIGENCE CHECK
+
+
+        public bool ContestStrength(float enemyStrength)
+        {
+            float resultMe = strength + randomgenerator.Next(1, 101);
+            float resultEnemy = enemyStrength + randomgenerator.Next(1, 101);
+            if (resultMe >= resultEnemy)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+        public bool ContestDexterity(float enemyDexterity)
+        {
+            float resultMe = dexterity + randomgenerator.Next(1, 101);
+            float resultEnemy = enemyDexterity + randomgenerator.Next(1, 101);
+            if (resultMe >= resultEnemy)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+        public bool ContestConstitution(float enemyConstitution)
+        {
+            float resultMe = constitution + randomgenerator.Next(1, 101);
+            float resultEnemy = enemyConstitution + randomgenerator.Next(1, 101);
+            if (resultMe >= resultEnemy)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+        public bool ContestIntelligence(float enemyIntelligence)
+        {
+            float resultMe = intelligence + randomgenerator.Next(1, 101);
+            float resultEnemy = enemyIntelligence + randomgenerator.Next(1, 101);
+            if (resultMe >= resultEnemy)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
     }
 }
