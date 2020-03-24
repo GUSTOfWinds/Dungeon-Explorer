@@ -68,6 +68,5 @@ namespace SlutprojektVT2020_ClassExplorer
                 return false;
             }
         }
-
     }
 }
