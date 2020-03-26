@@ -6,6 +6,5 @@ namespace SlutprojektVT2020_ClassExplorer
 {
     class MonsterRoom : Room
     {
-
     }
 }

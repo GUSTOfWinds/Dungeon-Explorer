@@ -7,7 +7,7 @@ namespace SlutprojektVT2020_ClassExplorer
         static void Main(string[] args)
         {
             Random randomgenerator = new Random();
-
+            Hero hero;
 
             Console.WriteLine("Greetings, Hero. You are about to enter the dungeon. Before you enter, please select a name and class");
             Console.WriteLine("To begin with, please write in your name, and then hit enter to confirm");
@@ -20,6 +20,7 @@ namespace SlutprojektVT2020_ClassExplorer
             if (HeroClass == "1")
             {
                 Console.WriteLine(HeroName + " is a Warrior!");
+                hero = new Warrior();
             }
 
 
@@ -27,6 +28,8 @@ namespace SlutprojektVT2020_ClassExplorer
             else
             {
                 Console.WriteLine(HeroName + " is a Failure...");
+                hero = new Warrior();
+
             }
             Console.ReadLine();
             Console.WriteLine("Now, into the dungeon you go. Good luck!");
