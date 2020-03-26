@@ -6,10 +6,10 @@ namespace SlutprojektVT2020_ClassExplorer
 {
     class MonsterRoom : Room
     {
-        int monsterAmount;
+        public int monsterAmount;
         List<Monster> monsterList = new List<Monster>();
 
-        static void monsterGenerator()
+        public void monsterGenerator()
         {
             monsterAmount = randomgenerator.Next(6);
 
