@@ -27,6 +27,11 @@ namespace SlutprojektVT2020_ClassExplorer
                 Console.WriteLine(HeroName + " is a Warrior!");
                 hero = new Warrior();
             }
+            if (HeroClass == "2")
+            {
+                Console.WriteLine(HeroName + " is a Monk!");
+                hero = new Monk();
+            }
             //TO ADD: MORE CLASSES TO PICK FROM
             else
             {
