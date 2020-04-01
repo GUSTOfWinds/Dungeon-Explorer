@@ -18,6 +18,7 @@ namespace SlutprojektVT2020_ClassExplorer
             Console.WriteLine("Now, " + HeroName + ", please select your class by writing the respective number (1, 2, 3 etc.) and hit enter to confirm");
             Console.WriteLine("The avaliable classes are as follows:");
             Console.WriteLine("1: Warrior. A combatant focusing on strength and durability, with average speed and lacking intelligence");
+            Console.WriteLine("2: Monk. A combatant focusing on speed & strength, with some wits but has poor stamina & durability");
             Console.WriteLine("NOTE: If you do not select a class properly, I am not responsible for the consequences.");
             string HeroClass = Console.ReadLine();
             //uses an if/else statement, along with a string function to determine which class to select, with a failsafe if the user enters it incorrectly so the program does not break
