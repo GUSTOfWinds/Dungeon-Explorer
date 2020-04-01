@@ -21,6 +21,7 @@ namespace SlutprojektVT2020_ClassExplorer
             Console.WriteLine("NOTE: If you do not select a class properly, I am not responsible for the consequences.");
             string HeroClass = Console.ReadLine();
             //uses an if/else statement, along with a string function to determine which class to select, with a failsafe if the user enters it incorrectly so the program does not break
+            //This could potentially be replaced by making the user simply pick again if what they selected does not work, but for now it is a "Pick correctly or pick badly." kind of situation.
             if (HeroClass == "1")
             {
                 Console.WriteLine(HeroName + " is a Warrior!");
@@ -56,6 +57,9 @@ namespace SlutprojektVT2020_ClassExplorer
             }
             Console.WriteLine("TestEnd");
             Console.ReadLine();
+
+            //TO ADD: ACTUAL DUNGEON EXPLORATION
+            //Below would be added the actual dungeon exploration, such as being able to see doors of other rooms, going into other rooms and fighting. What is above serves as a test of the existing written code, without having to write substantial code regarding the exploration functionalities
         }
     }
 }
