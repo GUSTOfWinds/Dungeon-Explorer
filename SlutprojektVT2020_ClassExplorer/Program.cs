@@ -43,7 +43,6 @@ namespace SlutprojektVT2020_ClassExplorer
             Console.WriteLine("Now, into the dungeon you go. Good luck!");
             Console.ReadLine();
 
-
             //TEST: What is below functions as a testing of the functions implemented, more specifically of the generation of a goblin class, as well as a method in the creature class
             Console.WriteLine("A Goblin Appears!");
             Goblin TestEnemy = new Goblin();
